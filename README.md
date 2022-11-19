@@ -1,10 +1,12 @@
 
 # Windows Driver pack for Xiaomi-9 sm8150 devices
 
-- This repository contains driver binary files for Xiaomi-9
-- All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
+- Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers) 
 - These driver files are based on @gus33000 's drivers for Surface Duo. 
 - Huge thanks to @gus33000!
+- Commercial use is PROHIBITED
+- This repository contains driver binary files for Xiaomi-9
+- All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
 ## Resources
 
