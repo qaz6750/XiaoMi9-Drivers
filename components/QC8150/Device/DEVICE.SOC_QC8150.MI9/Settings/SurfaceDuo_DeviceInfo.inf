@@ -25,8 +25,8 @@ Addreg    = DeviceInfo_Configurations_Reg
 ; Device Descriptor
 HKLM,"System\CurrentControlSet\Control\USBFN",idVendor,%REG_DWORD%,0x045E
 HKLM,"System\CurrentControlSet\Control\USBFN",idProduct,%REG_DWORD%,0x0C2A
-HKLM,"System\CurrentControlSet\Control\USBFN",ManufacturerString,%REG_SZ%,Microsoft
-HKLM,"System\CurrentControlSet\Control\USBFN",ProductString,%REG_SZ%,"Surface Duo"
+HKLM,"System\CurrentControlSet\Control\USBFN",ManufacturerString,%REG_SZ%,Xiaomi
+HKLM,"System\CurrentControlSet\Control\USBFN",ProductString,%REG_SZ%,"MI 9"
 HKLM,"System\CurrentControlSet\Control\USBFN",iProduct,%REG_DWORD%,2
 HKLM,"System\CurrentControlSet\Control\USBFN",iManufacturer,%REG_DWORD%,1
 
