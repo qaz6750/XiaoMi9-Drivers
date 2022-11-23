@@ -1,30 +1,27 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "IDP", "IOT", "Surface"],
-    "soc_id": ["415", "439", "456", "454","450", "469", "470", "501", "502", "475", "497", "498", "515", "507", "518"]
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "CEPHEUS"],
+    "soc_id": ["291", "246", "300", "301", "305", "321", "336", "339", "341", "360"]
   },
   "sns_fmv_platform": {
     "owner": "sns_fmv",
     ".config":{
       "owner": "sns_fmv",
       "accuracy_unknown": { "type": "int", "ver": "0",
-        "data": "30000"
+        "data": "3000"
       },
       "accuracy_abs_rest": { "type": "int", "ver": "0",
-        "data": "30000"
+        "data": "250"
       },
       "accuracy_rel_rest": { "type": "int", "ver": "0",
-        "data": "30000"
+        "data": "1500"
       },
       "accuracy_motion": { "type": "int", "ver": "0",
-        "data": "30000"
-      },
-      "accuracy_fast_motion": { "type": "int", "ver": "0",
-        "data": "10000"
+        "data": "3000"
       },
       "gyro_gap_thresh": { "type": "int", "ver": "0",
-        "data": "500"
+        "data": "501"
       },
       "mag_innov": { "type": "flt", "ver": "0",
         "data": "9.0"
@@ -35,17 +32,20 @@
       "tyro_thresh_for_zupt": { "type": "flt", "ver": "0",
         "data": "0.001"
       },
+      "sensor_rpt_rate": { "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "def_sample_rate": { "type": "flt", "ver": "0",
+        "data": "5.0"
+      },
       "amd_int_cfg_param1": { "type": "flt", "ver": "0",
-        "data": "0.000061"
+        "data": "0.06"
       },
       "amd_int_cfg_param2": { "type": "flt", "ver": "0",
-        "data": "0.6"
+        "data": "0.5"
       },
-      "amd_int_cfg_param3": { "type": "flt", "ver": "0",
-        "data": "0.4"
-      },
-      "debug_mode": { "type": "int", "ver": "0",
-        "data": "0"
+      "amd_int_cfg_param5": { "type": "flt", "ver": "0",
+        "data": "0.16"
       }
     }
   }

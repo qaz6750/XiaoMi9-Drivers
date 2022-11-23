@@ -1,14 +1,23 @@
 {
   "config": {
-    "hw_platform": ["MTP","QRD","Dragon","Surf", "HDK", "Surface"],
-    "soc_id": ["339", "340", "356", "361", "415", "439", "456", "501", "502"]
+    "hw_platform": ["MTP","QRD","Dragon","Surf", "CEPHEUS"],
+    "soc_id": ["339", "340"]
   },
   "ccd_amd": {
     "owner": "sns_ccd",
     "h2":  { "ver": "0","type": "int",
-             "data": "50"},
-    "disable_flush_only":  { "ver": "0","type": "int",
-             "data": "0"}
+             "data": "50"}
+  },
+  "ccd_walk": {
+    "owner": "sns_ccd",
+    "xct":  { "ver": "0","type": "int",
+              "data": "10" },
+    "mls":  { "ver": "0","type": "int",
+              "data": "6" },
+    "mps":  { "ver": "0","type": "int",
+              "data": "4" },
+    "hmps": { "ver": "0","type": "int",
+              "data": "4" }
   },
   "ccd_ttw": {
     "owner": "sns_ccd",
@@ -16,7 +25,7 @@
               "data": "0x1" },
     "te0_xmd_win_len_samp": { "ver": "0","type": "int",
               "data": "0x4" },
-    "te0_xmd_threshhold1":  { "ver": "0","type": "int",
+    "te0_xmd_threshhold1":    { "ver": "0","type": "int",
               "data": "0x4B00" },
     "te0_xmd_threshhold2":  { "ver": "0","type": "int",
               "data": "0x0" },
