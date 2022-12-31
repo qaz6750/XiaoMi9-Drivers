@@ -47,7 +47,7 @@ rtic.mbn
 hdcpsrm.mbn
 hdcp2p2.mbn
 hdcp1.mbn
-fpctzrel.mbn
+fingerpr.mbn
 
 QcTrEE8150.sys
 
@@ -168,8 +168,8 @@ HKR,%HdcpSrmService.RegKey%,OSDependencies,%REG_MULTI_SZ%,%RpmbOsService%,%TzApp
 HKR,%BiometricService.RegKey%,Enabled,%REG_DWORD%,1
 HKR,%BiometricService.RegKey%,SecureApp,%REG_DWORD%,1
 HKR,%BiometricService.RegKey%,LoadApp,%REG_DWORD%,1
-HKR,%BiometricService.RegKey%,AppName,,"fpctzrel"
-HKR,%BiometricService.RegKey%,FileName,,"fpctzrel.mbn"
+HKR,%BiometricService.RegKey%,AppName,,"fingerpr"
+HKR,%BiometricService.RegKey%,FileName,,"fingerpr.mbn"
 HKR,%BiometricService.RegKey%,MajorVersion,%REG_DWORD%,1
 HKR,%BiometricService.RegKey%,MinorVersion,%REG_DWORD%,0
 HKR,%BiometricService.RegKey%,OSDependencies,%REG_MULTI_SZ%,%RpmbOsService%,%TzAppsOsService%
@@ -235,7 +235,7 @@ rtic.mbn = 1,
 hdcpsrm.mbn = 1,
 hdcp2p2.mbn = 1,
 hdcp1.mbn = 1,
-fpctzrel.mbn = 1,
+fingerpr.mbn = 1,
 
 QcTrEE8150.sys = 1,,
 
