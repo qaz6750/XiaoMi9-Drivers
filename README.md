@@ -1,6 +1,6 @@
 
 # Windows Driver pack for Xiaomi-9 sm8150 devices
-
+- # Please note that please do not use this driver on the old UEFI. The new UEFI is coming soon. Please look forward to it #
 - Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers) 
 - These driver files are based on @gus33000 's drivers for Surface Duo. 
 - Huge thanks to @gus33000!
