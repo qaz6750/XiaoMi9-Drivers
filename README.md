@@ -1,7 +1,7 @@
 
 # Windows Driver pack for Xiaomi-9 sm8150 devices
 - ### [Current status](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Status.md) 
-- ### Please note that please do not use this driver on the old UEFI. The new UEFI is coming soon. Please look forward to it 
+- ### [How to install](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Install.md) 
 - Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers) 
 - Commercial use is PROHIBITED
 - This repository contains driver binary files for Xiaomi-9
@@ -43,11 +43,3 @@
 - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 
 - SOFTWARE.
-
-## Installing manually
-
-- For preserving charset encoding, please checkout with using:
-
-```
-git clone -c core.autocrlf=false https://github.com/qaz6750/Xiaomi9-NT-Drivers
-```
