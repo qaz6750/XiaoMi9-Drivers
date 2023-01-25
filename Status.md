@@ -7,14 +7,15 @@
 | Wifi                   |                                                     | ✅            |
 | UFS                    |                                                     | ✅            |
 | Bluetooth              |                                                     | ✅            |
-| GPU                    | 										                              	 | ✅            |
+| GPU                    |                                                     | ✅            |
 | Battery                |                                                     | ✅            |
 | Buttons                |                                                     | ✅            |
+| USB                    | Currently only USBFN                                | ⚠️            |
 | Touch                  | Right click is not supported                        | ⚠️            |
 | Sensor                 | There are still problems                            | ⚠️            |
-| Charge                 | slow charging only		                               | ⚠️            |
+| Charge                 | slow charging only                                  | ⚠️            |
 | Cellular Data          |                                                     | ⚠️            |
-| NFC                    | 										                               	 | ❌            |
+| NFC                    |                                                     | ❌            |
 | Fingerprint            |                                                     | ❌            |
 | Camera                 |                                                     | ❌            |
 | Audio                  |                                                     | ❌            |
