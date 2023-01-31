@@ -8,6 +8,7 @@
 | UFS                    |                                                                                         | ✅            |
 | Bluetooth              |                                                                                         | ✅            |
 | GPU                    |                                                                                         | ✅            |
+| Brightness control     |                                                                                         | ✅            |
 | Battery                |                                                                                         | ✅            |
 | Buttons                |                                                                                         | ✅            |
 | USB-FN                 | This is used to detect whether it is charging                                           | ✅            |
@@ -16,7 +17,6 @@
 | Sensor                 | There are still problems                                                                | ⚠️            |
 | Charge                 | slow charging only                                                                      | ⚠️            |
 | Cellular Data          |                                                                                         | ⚠️            |
-| Brightness control     |                                                                                         | ❌            |
 | NFC                    | No drivers available currently                                                          | ❌            |
 | Fingerprint            | No drivers available currently                                                          | ❌            |
 | Camera                 |                                                                                         | ❌            |
