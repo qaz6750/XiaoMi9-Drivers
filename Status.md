@@ -16,7 +16,8 @@
 | Sensor                 | There are still problems                                                                | ⚠️            |
 | Charge                 | slow charging only                                                                      | ⚠️            |
 | Cellular Data          |                                                                                         | ⚠️            |
-| NFC                    | No drivers available currently.	                                                       | ❌            |
-| Fingerprint            | No drivers available currently.	                                                       | ❌            |
+| Brightness control     |                                                                                         | ❌            |
+| NFC                    | No drivers available currently                                                          | ❌            |
+| Fingerprint            | No drivers available currently                                                          | ❌            |
 | Camera                 |                                                                                         | ❌            |
 | Audio                  |                                                                                         | ❌            |
