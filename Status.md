@@ -20,4 +20,4 @@
 | NFC                    | No drivers available currently                                                          | ❌            |
 | Fingerprint            | No drivers available currently                                                          | ❌            |
 | Camera                 |                                                                                         | ❌            |
-| Audio                  |                                                                                         | ❌            |
+| Audio                  | support for tas2557 needs to be introduced                                              | ❌            |
