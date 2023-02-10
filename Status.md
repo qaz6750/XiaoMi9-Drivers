@@ -21,3 +21,14 @@
 | Fingerprint            | No drivers available currently                                                          | ❌            |
 | Camera                 |                                                                                         | ❌            |
 | Audio                  | support for tas2557 needs to be introduced                                              | ❌            |
+
+## GPU-Panel Status
+* Generally, it should be ea8076-f1mp, but it can still be other panels. This problem is usually caused by changing the screen
+
+| Panelcfg                                 | Notes                                                                                   | Status         |
+|------------------------------------------|-----------------------------------------------------------------------------------------|----------------|
+| dsi-panel-samsung-fhd-ea8076-f1mp-cmd    | Main support                                                                            | ✅            |
+| dsi-panel-samsung-fhd-ea8076-f1p2-cmd    | It is only slightly different from f1mp and can still be used                           | ✅            |
+| dsi-panel-samsung-fhd-ea8076-f1p2_2-cmd  | Not tested                                                                              | ❌            |
+| dsi-panel-samsung-fhd-ea8076-f1-cmd      | Not tested                                                                              | ❌            |
+| dsi-panel-samsung-fhd-ea8076-cmd         | Not tested                                                                              | ❌            |
