@@ -15,7 +15,7 @@ PnpLockdown = 1
 %ManufacturerName% = Surface, NTARM64
 
 [Surface.NTARM64]
-%DeviceName% = GenericDcsBacklight, ACPI\MSHW1004
+%DeviceName% = GenericDcsBacklight, ACPI\MSHW1345
 
 [SourceDisksNames]
 1 = %DiskName%,,,""
