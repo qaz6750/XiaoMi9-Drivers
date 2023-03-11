@@ -15,9 +15,9 @@ Signature="$WINDOWS NT$"
 Class=Extension
 ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 ExtensionId={bc933941-a12c-4a6d-9ce6-c0565be2e759}
-Provider=%SURFACE%
+Provider=%Xiaomi%
 DriverVer = 06/05/2022,1.0.1780.0000
-CatalogFile=SurfaceDuo_subextcdsp.cat
+CatalogFile=Cepheus_subextcdsp.cat
 PnpLockDown=1
 
 [DestinationDirs]
@@ -81,7 +81,7 @@ ExcludeFromSelect = *
 ;*****************************************
 
 [Manufacturer]
-%SURFACE%=Extension,NTARM64
+%Xiaomi%=Extension,NTARM64
 
 [Extension.NTARM64]
 %CDSP.DeviceDesc%=SUBSYS_Device_CDSP_ext, ACPI\VEN_QCOM&DEV_0523&SUBSYS_CLS08150
@@ -290,11 +290,11 @@ HKR,,FriendlyName,, %CDSP.FriendlyName%
 
 [Strings]
 ;Localizable Strings
-SURFACE = "Surface"
-DiskId1 = "Surface Duo Combined Subsystem Driver Installation Disk"
-CDSP.DeviceDesc = "Surface Duo Hexagon(TM) 690 DSP"  
-PIL.DeviceDesc = "Surface Duo System Manager Device"
-CDSP.FriendlyName = "Surface Duo CDSP Subsystem"
+Xiaomi = "Xiaomi"
+DiskId1 = "Cepheus Combined Subsystem Driver Installation Disk"
+CDSP.DeviceDesc = "Cepheus Hexagon(TM) 690 DSP"  
+PIL.DeviceDesc = "Cepheus System Manager Device"
+CDSP.FriendlyName = "Cepheus CDSP Subsystem"
 FASTRPC = 1
 TFTP = 2
 

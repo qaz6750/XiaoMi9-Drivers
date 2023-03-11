@@ -30,7 +30,7 @@ DefaultDestDir = 13
 ;*****************************************
 
 [Manufacturer]
-%Surface%=Standard,NTARM64
+%QUALCOMM%=Standard,NTARM64
 
 [Standard.NTARM64]
 ; DisplayName       		Section           DeviceId
