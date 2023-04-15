@@ -14,12 +14,13 @@
 | Battery                |                                                                                         | ✅            |
 | Buttons                |                                                                                         | ✅            |
 | GPS                    |                                                                                         | ✅            |
+| USB-FN                 | This is used to detect whether it is charging                                           | ✅            |
+| USB-HOST               | USB Dongles that are not externally powered may not currently work                      | ✅            |
+| Charge                 | slow charging only                                                                      | ✅            |
+| SPSS                   | Because the signature of the spss8150v2p firmware is incorrect,So it cannot support tpm | ✅⚠️❌       |
 | Touch                  | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
 | Sensor                 | There are still problems                                                                | ⚠️            |
 | Cellular Data          |                                                                                         | ⚠️            |
-| USB-FN                 | Unknown upstream issue, cannot be used                                                  | ❌            |
-| USB-HOST               | Unknown upstream issue, cannot be used                                                  | ❌            |
-| Charge                 | Unknown upstream issue, cannot be used                                                  | ❌            |
 | Vibration motor        | Requires PMIC Driver for Haptics                                                        | ❌            |
 | NFC                    | No drivers available currently                                                          | ❌            |
 | Fingerprint            | No drivers available currently                                                          | ❌            |
