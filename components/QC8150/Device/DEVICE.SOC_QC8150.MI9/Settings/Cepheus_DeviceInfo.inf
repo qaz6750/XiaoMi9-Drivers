@@ -8,7 +8,7 @@ Class       = SYSTEM
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %IHV%
 DriverVer   = 01/08/2021,1.0.0.0000
-CatalogFile = SurfaceDuo_DeviceInfo.cat
+CatalogFile = Cepheus_deviceinfo.cat
 PnpLockdown = 1
 
 ;*****************************************
@@ -26,7 +26,7 @@ Addreg    = DeviceInfo_Configurations_Reg
 HKLM,"System\CurrentControlSet\Control\USBFN",idVendor,%REG_DWORD%,0x045E
 HKLM,"System\CurrentControlSet\Control\USBFN",idProduct,%REG_DWORD%,0x0C2A
 HKLM,"System\CurrentControlSet\Control\USBFN",ManufacturerString,%REG_SZ%,Xiaomi
-HKLM,"System\CurrentControlSet\Control\USBFN",ProductString,%REG_SZ%,"MI 9"
+HKLM,"System\CurrentControlSet\Control\USBFN",ProductString,%REG_SZ%,"Cepheus (MI9)"
 HKLM,"System\CurrentControlSet\Control\USBFN",iProduct,%REG_DWORD%,2
 HKLM,"System\CurrentControlSet\Control\USBFN",iManufacturer,%REG_DWORD%,1
 
@@ -35,7 +35,7 @@ HKLM,"System\CurrentControlSet\Control\USBFN",CurrentConfiguration,%REG_SZ%,Defa
 
 HKLM,"System\CurrentControlSet\Control\USBFN\Configurations",,,""
 
-HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation",SupportURL,%REG_SZ%,"http://www.microsoft.com/surface/support"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation",SupportURL,%REG_SZ%,"https://www.mi.com/service"
 HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation",SerialNumberIsValid,%REG_DWORD%,1
 
 [DeviceInfo_Configurations_Reg.Security]
