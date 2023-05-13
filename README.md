@@ -12,8 +12,8 @@
 - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
 ## Future plans
-* Touch: Optimize the Fts521 touch driver
-* Other: Optimize other drivers
+* Sensors: Repair sensor driver
+* Other: Merge upstream driver updates
 
 ## Resources
 

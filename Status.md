@@ -12,13 +12,13 @@
 | Battery                |                                                                                         | ✅            |
 | Buttons                |                                                                                         | ✅            |
 | GPS                    |                                                                                         | ✅            |
-| USB-FN                 | This is used to detect whether it is charging                                           | ✅            |
+| USB-FN                 | This is used to detect whether it is charging and MTP                                   | ✅            |
 | USB-HOST               | USB Dongles that are not externally powered may not currently work                      | ✅            |
 | Charge                 | slow charging only                                                                      | ✅            |
-| SPSS & TPM             | Because the signature of the spss8150v2p firmware is incorrect                          | ⚠️❌          |
 | Touch                  | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
-| Sensor                 | Still not providing sensor data normally                                                | ⚠️            |
+| Sensor                 | Sensor not provided correctly on Windows                                                | ⚠️            |
 | Cellular Data          |                                                                                         | ⚠️            |
+| SPSS & TPM             | Because the signature of the spss8150v2p firmware is incorrect                          | ❌            |
 | Vibration motor        | Requires PMIC Driver for Haptics                                                        | ❌            |
 | NFC                    | No drivers available currently                                                          | ❌            |
 | Fingerprint            | Need touch driver to add support                                                        | ❌            |
