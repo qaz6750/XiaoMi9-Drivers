@@ -13,9 +13,10 @@
 | Buttons                |                                                                                         | ✅            |
 | GPS                    |                                                                                         | ✅            |
 | USB-FN                 | This is used to detect whether it is charging and MTP                                   | ✅            |
-| USB-HOST               | USB Dongles that are not externally powered may not currently work                      | ✅            |
-| Charge                 | slow charging only                                                                      | ✅            |
 | Touch                  | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
+| Pen Digitizer          | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
+| USB-HOST (USB C )      | Some of the features are work in progress (USB Powerless Dongles)                       | ⚠️            |
+| Charge                 | slow charging only,                                                                      | ⚠️            |
 | Sensor                 | Sensor not provided correctly on Windows                                                | ⚠️            |
 | Cellular Data          |                                                                                         | ⚠️            |
 | SPSS & TPM             | Because the signature of the spss8150v2p firmware is incorrect                          | ❌            |
