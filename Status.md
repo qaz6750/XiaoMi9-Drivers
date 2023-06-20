@@ -13,10 +13,11 @@
 | Buttons                |                                                                                         | ✅            |
 | GPS                    |                                                                                         | ✅            |
 | USB-FN                 | This is used to detect whether it is charging and MTP                                   | ✅            |
+| Audio-Speaker          |                                                                                         | ✅            |
 | Touch                  | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
 | Pen Digitizer          | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
 | USB-HOST (USB C )      | Some of the features are work in progress (USB Powerless Dongles)                       | ⚠️            |
-| Charge                 | slow charging only,                                                                      | ⚠️            |
+| Charge                 | slow charging only,                                                                     | ⚠️            |
 | Sensor                 | Sensor not provided correctly on Windows                                                | ⚠️            |
 | Cellular Data          |                                                                                         | ⚠️            |
 | SPSS & TPM             | Because the signature of the spss8150v2p firmware is incorrect                          | ❌            |
@@ -24,7 +25,6 @@
 | NFC                    | No drivers available currently                                                          | ❌            |
 | Fingerprint            | Need touch driver to add support                                                        | ❌            |
 | Camera                 |                                                                                         | ❌            |
-| Audio                  | I2S channel data unknown reason failure                                                 | ❌            |
 
 ## GPU-Panel Status
 * Generally, it should be ea8076-f1mp, but it can still be other panels. This problem is usually caused by changing the screen
