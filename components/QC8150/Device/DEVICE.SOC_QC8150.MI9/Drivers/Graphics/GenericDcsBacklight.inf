@@ -45,10 +45,10 @@ ServiceBinary  = %13%\GenericDcsBacklight.sys
 LoadOrderGroup = Extended Base
 
 [Strings]
-ManufacturerName = "Surface"
-DiskName         = "Surface OEM Panel Installation Disk"
-DeviceName       = "Surface OEM Panel Device"
-SvcDesc          = "Surface OEM Panel Device"
+ManufacturerName = "Xiaomi"
+DiskName         = "Cepheus OEM Panel Installation Disk"
+DeviceName       = "Cepheus OEM Panel Device"
+SvcDesc          = "Cepheus OEM Panel Device"
 
 SPSVCINST_ASSOCSERVICE = 0x00000002
 SERVICE_KERNEL_DRIVER  = 1
