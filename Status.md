@@ -15,7 +15,7 @@
 | 🔊 Audio               |                                                                                         | ✅            |
 | 👆 Touch               | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
 | ✏️ Pen Digitizer       | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
-| 🔌 Charge              | slow charging only and Easy to trigger BSOD                                             | ⚠️            |
+| 🔌 Charge              | slow charging only                                                                      | ⚠️            |
 | 🧭 Sensor              | Sensor not provided correctly on Windows                                                | ⚠️            |
 | ♋ Cellular Data       |                                                                                         | ⚠️            |
 | ⚙️ SPSS & TPM          | Because the signature of the spss8150v2p firmware is incorrect                          | ❌            |
