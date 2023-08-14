@@ -31,7 +31,8 @@
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 🔉 Audio Speaker       |                                                                                         | ✅            |
-| 🎙️ Microphone          |                                                                                         | ✅            |
+| 🎙️ Internal Top Mic    |                                                                                         | ❌            |
+| 🎙️ Internal Bottom Mic |                                                                                         | ✅            |
 
 ## 🪵 USB
 *  USB Host is not forced anymore, this means OTG dongles requiring external power from the device will once again be misdetected. The reasoning behind this is the "fix" for this particular issue broke more than it helped with. The user can however get such functionality back and out with the help of a simple reg commands:
