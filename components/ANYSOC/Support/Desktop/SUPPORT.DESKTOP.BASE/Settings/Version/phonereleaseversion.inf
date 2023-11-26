@@ -20,7 +20,7 @@ CatalogFile.NTARM64 = phonereleaseversion.arm64.cat
 Addreg    = phonereleaseversionReg
 
 [phonereleaseversionReg]
-HKLM, "SYSTEM\Platform\DeviceTargetingInfo", "PhoneReleaseVersion", 0x0,  "1.1.0"
+HKLM, "SYSTEM\Platform\DeviceTargetingInfo", "PhoneReleaseVersion", 0x0,  "1.2.0"
 
 [Strings]
 IHV                    = "LumiaWoA authors"
