@@ -1,4 +1,8 @@
 # How to install
+
+> [!WARNING]
+> - Don't create partitions from Mass Storage Mode on Windows (because ABL will break with blank/spaces in names), your phone may be irrecoverable otherwise
+
 ## Get Driver
 
 - For preserving charset encoding, please checkout with using:
