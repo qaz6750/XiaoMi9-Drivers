@@ -3,11 +3,11 @@ REM rmdir /Q /S ..\..\XiaoMi9-Drivers-Release
 mkdir ..\..\XiaoMi9-Drivers-Release
 
 echo @echo off > ..\OnlineUpdater.cmd
-echo DriverUpdater.%%PROCESSOR_ARCHITECTURE%%.exe -r . -d .\definitions\Desktop\ARM64\Internal\epsilon.txt >> ..\OnlineUpdater.cmd
+echo DriverUpdater.%%PROCESSOR_ARCHITECTURE%%.exe -r . -d .\definitions\Desktop\ARM64\Internal\cepheus.txt >> ..\OnlineUpdater.cmd
 
 echo @echo off > ..\OfflineUpdater.cmd
 echo set /P DrivePath=Enter Drive letter ^^^(with the semi-column!^^^) of the connected device in mass storage mode ^^^(e.g. D:^^^): >> ..\OfflineUpdater.cmd
-echo DriverUpdater.%%PROCESSOR_ARCHITECTURE%%.exe -r . -d .\definitions\Desktop\ARM64\Internal\epsilon.txt -p %%DrivePath%% >> ..\OfflineUpdater.cmd
+echo DriverUpdater.%%PROCESSOR_ARCHITECTURE%%.exe -r . -d .\definitions\Desktop\ARM64\Internal\cepheus.txt -p %%DrivePath%% >> ..\OfflineUpdater.cmd
 
 copy DriverUpdater.ARM64.exe ..\
 copy DriverUpdater.AMD64.exe ..\
