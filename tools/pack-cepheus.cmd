@@ -2,9 +2,9 @@
 REM rmdir /Q /S ..\..\XiaoMi9-Drivers-Release
 mkdir ..\..\XiaoMi9-Drivers-Release
 
+echo apps\IPA >> filelist_cepheus.txt
 echo CODE_OF_CONDUCT.md >> filelist_cepheus.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_cepheus.txt
-echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.EXTRAS >> filelist_cepheus.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE >> filelist_cepheus.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> filelist_cepheus.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL >> filelist_cepheus.txt
