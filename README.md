@@ -11,12 +11,7 @@
 > - **Commercial use is PROHIBITED**
 > - **This repository contains driver binary files for Xiaomi 9**
 > - These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
-> - PmicChargerFg8150 driver fixed by Molly, Thanks to Molly for repairing
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
-
-## Future plans
-* Sensors: Repair sensor driver
-* Other: Merge upstream driver updates
 
 ## Resources
 
