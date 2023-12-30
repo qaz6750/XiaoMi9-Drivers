@@ -46,9 +46,9 @@ LoadOrderGroup = Extended Base
 
 [Strings]
 ManufacturerName = "Xiaomi"
-DiskName         = "Cepheus OEM Panel Installation Disk"
-DeviceName       = "Cepheus OEM Panel Device"
-SvcDesc          = "Cepheus OEM Panel Device"
+DiskName         = "XiaoMi 9 OEM Panel Installation Disk"
+DeviceName       = "XiaoMi 9 OEM Panel Device"
+SvcDesc          = "XiaoMi 9 OEM Panel Device"
 
 SPSVCINST_ASSOCSERVICE = 0x00000002
 SERVICE_KERNEL_DRIVER  = 1
