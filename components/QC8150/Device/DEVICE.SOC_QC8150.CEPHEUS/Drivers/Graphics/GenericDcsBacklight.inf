@@ -12,11 +12,10 @@ CatalogFile = GenericDcsBacklight.cat
 PnpLockdown = 1
 
 [Manufacturer]
-%ManufacturerName% = Surface, NTARM64
+%ManufacturerName% = XiaoMi, NTARM64
 
-[Surface.NTARM64]
-%DeviceName% = GenericDcsBacklight, ACPI\MSHW1004
-%DeviceName% = GenericDcsBacklight, ACPI\MSHW1345
+[XiaoMi.NTARM64]
+%DeviceName% = GenericDcsBacklight, ACPI\OPXM0009
 
 [SourceDisksNames]
 1 = %DiskName%,,,""
