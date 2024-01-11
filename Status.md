@@ -15,8 +15,7 @@
 | 🪵 USB                 |                                                                                         | ✅            |
 | 🔊 Audio               |                                                                                         | ✅            |
 | ⚙️ FTPM 2.0            | Only under Secure boot and does not support Windows 10 18362/18363.                     | ✅            |
-| 👆 Touch               | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
-| ✏️ Pen Digitizer       | Right click is not supported.BSOD occurs during shutdown or restart                     | ⚠️            |
+| 👆 Touch               | The touch driver still has issues with multi finger touch.                              | ✅            |
 | 🔌 Charge              | slow charging only                                                                      | ⚠️            |
 | 🧭 Sensor              | Sensor not provided correctly on Windows                                                | ⚠️            |
 | ♋ Cellular Data       |                                                                                         | ⚠️            |
