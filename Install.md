@@ -3,19 +3,22 @@
 > [!WARNING]
 > - Don't create partitions from Mass Storage Mode on Windows (because ABL will break with blank/spaces in names), your phone may be irrecoverable otherwise
 > - Ensure the use of UEFI corresponding to the driver program
+> - For some users, we recommend using MindowsV8 to complete the installation, although there are still issues, please feel free to raise them
 
 ## Get Driver
+> [!NOTE]
+> - To ensure the matching between UEFI and drivers, we recommend that all users download drivers directly from Releases
 
-- For preserving charset encoding, please checkout with using:
+* For preserving charset encoding, please checkout with using:
 ```
-git clone -c core.autocrlf=false https://github.com/qaz6750/Xiaomi9-NT-Drivers
+git clone -c core.autocrlf=false https://github.com/qaz6750/XiaoMi9-Drivers
 ```
-- Or you can get the released version through [Releases](hhttps://github.com/qaz6750/Xiaomi9-NT-Drivers) 
+* Or you can get the released version through [Releases](https://github.com/qaz6750/XiaoMi9-Drivers/releases) 
 
 ## Installing the drivers
-- Going to Mass Storage
-- Assign drive letters to Windows and EFI of your phone
-- Extract the drivers, Extract driver updater, and from the command prompt in the DriverUpdater2.0.exe directory:
+* Going to Mass Storage
+* Assign drive letters to Windows and EFI of your phone
+* Extract the drivers, Extract driver updater, and from the command prompt in the DriverUpdater2.0.exe directory:
 
 ```
 DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.txt" -r "<path to extracted drivers>" -p <The window drive letter of your phone>:\
