@@ -13,6 +13,13 @@
 > - These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
+### Links
+  * Xiaomi 9 Telegram group: [XiaoMi 9 (Cepheus)-WOA](https://t.me/WinOnMi9/)
+  * Official Website: [woa-msmnile home](https://woa-msmnile.github.io/)
+  * Telegram group: [woa-msmnile issues & advice](https://t.me/woa_msmnile_issues)
+  * Tencent QQ group: [woa-msmnile 问题与建议](https://qm.qq.com/cgi-bin/qm/qr?k=r2Gb_eHElZq0T7Rczf4rnEMsMdX6gbvF&jump_from=webapi&authKey=L4/pvGXcxQQddJpzUoa3qEh6P4n/fbF88oPKuPh4L0EFIEj5cY1k06i2w78gA5m5)
+  * Mindows Flash Tool: *[Mindows Chinese Page](http://mindows.cn/)*
+
 ## Resources
 
 ## Copyright, License, Disclaimers and end user license agreement
