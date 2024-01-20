@@ -41,3 +41,11 @@ bcdedit /store BCD /set "{default}" recoveryenabled no
 ```
 ## In the end
 * Now you can try starting the Windows system
+
+## Other
+### [Temporary and Optional] Copy over calibration files/configuration files for the sensors
+> [!NOTE]
+> - These steps are temporary and will not be needed in future releases. These steps are also not as fully detailed as others and may get updated at a later time
+> - In order to get most sensors currently working, some manual steps are required.
+* You will need to backup from mass storage or twrp the following directory: /vendor/persist/sensors/
+* Copy over the contents to [Windows Drive Letter]\Windows\System32\Drivers\DriverData\QUALCOMM\fastRPC\persist\sensors (the following directory should already exist after booting Windows once, otherwise create it)

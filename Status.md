@@ -14,14 +14,14 @@
 | 📌 GPS                 |                                                                                         | ✅            |
 | 🪵 USB                 |                                                                                         | ✅            |
 | 🔊 Audio               |                                                                                         | ✅            |
+| 🧭 Sensor              | Manual copying of Calibration is required.                                              | ✅            |
 | ⚙️ FTPM 2.0            | Only under Secure boot and does not support Windows 10 18362/18363.                     | ✅            |
 | 👆 Touch               | The touch driver still has issues with multi finger touch.                              | ✅            |
-| 🔌 Charge              | slow charging only                                                                      | ⚠️            |
-| 🧭 Sensor              | Sensor not provided correctly on Windows                                                | ⚠️            |
+| 🔌 Charge              | slow charging only.                                                                     | ⚠️            |
 | ♋ Cellular Data       |                                                                                         | ⚠️            |
-| 📳 Vibration motor     | Requires PMIC Driver for Haptics                                                        | ❌            |
-| 🏷️ NFC                 | The corresponding I2C channel needs to be repaired                                      | ❌            |
-| 🧬 Fingerprint         | Need touch driver to add support                                                        | ❌            |
+| 📳 Vibration motor     | Requires PMIC Driver for Haptics.                                                       | ❌            |
+| 🏷️ NFC                 | The corresponding I2C channel needs to be repaired.                                     | ❌            |
+| 🧬 Fingerprint         | Need touch driver to add support.                                                       | ❌            |
 | 📸 Camera              |                                                                                         | ❌            |
 
 # Detailed status
@@ -34,6 +34,16 @@
 | 🔉 Handset  Speaker    |                                                                                         | ✅            |
 | 🎙️ Internal Top Mic    |                                                                                         | ✅            |
 | 🎙️ Internal Bottom Mic |                                                                                         | ✅            |
+
+## 🧭 Sensors
+### Various functions of Sensors
+| Feature                | Notes                                                                                   | Status         |
+|------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🧭 Accelerometer       |                                                                                         | ✅            |
+| 🧭 Gyroscope           | Testing required.                                                                       | ⚠️            |
+| 🧭 Light sensor        |                                                                                         | ✅            |
+| 🧭 Magnetometer        | Testing required.                                                                       | ⚠️            |
+| 🧭 Proximity           | Testing required.                                                                       | ⚠️            |
 
 ## 🪵 USB
 *  USB Host is not forced anymore, this means OTG dongles requiring external power from the device will once again be misdetected. The reasoning behind this is the "fix" for this particular issue broke more than it helped with. The user can however get such functionality back and out with the help of a simple reg commands:
