@@ -4,9 +4,9 @@
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "adux1050_0_platform":{
-    "owner": "sns_adux1050",
+    "owner": "sns_adux1050_0",
     ".config":{
-      "owner": "sns_adux1050",
+      "owner": "sns_adux1050_0",
       "bus_type":{ "type": "int", "ver": "0",
         "data": "0"
       },
@@ -57,7 +57,7 @@
       }
     },
     ".placement":{
-      "owner": "sns_adux1050",
+      "owner": "sns_adux1050_0",
       "0":{ "type": "flt", "ver": "0",
         "data": "0.0"
       },

@@ -4,11 +4,11 @@
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "adux1050_0":{
-    "owner": "sns_adux1050",
+    "owner": "sns_adux1050_0",
     ".proximity":{
-      "owner": "sns_adux1050",
+      "owner": "sns_adux1050_0",
       ".config":{
-        "owner": "sns_adux1050",
+        "owner": "sns_adux1050_0",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "0"
         },
@@ -26,7 +26,7 @@
     ".custom":{
       "owner": "sns_adux1050",
       ".config":{
-        "owner": "sns_adux1050",
+        "owner": "sns_adux1050_0",
         "version":{ "type": "flt", "ver": "0",
           "data": "0x0000"
         },
