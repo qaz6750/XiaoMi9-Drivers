@@ -47,7 +47,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Camera" Name="XiaoMi9_camfrontext.inf" ID="XiaoMi9_camfrontext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Camera" Name="XiaoMi9_camrearext.inf" ID="XiaoMi9_camrearext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\HexagonLoader" Name="XiaoMi9_pilext.inf" ID="XiaoMi9_pilext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\SAR" Name="XiaoMi9_sarconfig.inf" ID="XiaoMi9_sarconfig"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Sensors" Name="XiaoMi9_sensorsconfig.inf" ID="XiaoMi9_sensorsconfig"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Storage" Name="XiaoMiSfuH28S8Q302CMRA103ExtnPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103ExtnPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextadsp.inf" ID="XiaoMi9_subextadsp"/>
