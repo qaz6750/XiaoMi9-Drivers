@@ -21,7 +21,7 @@
 * Extract the drivers, Extract driver updater, and from the command prompt in the DriverUpdater2.0.exe directory:
 
 ```
-DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.txt" -r "<path to extracted drivers>" -p <The window drive letter of your phone>:\
+DriverUpdater.X86.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.xml" -r "<path to extracted drivers>" -p <The window drive letter of your phone>:\
 ```
 ## About Choosing the Right UEFI
 ### Enable SecureBoot
@@ -33,6 +33,7 @@ DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Inte
 > - If you need to start systems like Linux, you also need to disable secure boot
 > - And it requires disable driver signature checks
 ```
+<ESP partition>:
 cd <ESP partition>:\EFI\Microsoft\Boot
 bcdedit /store BCD /set "{default}" testsigning on
 bcdedit /store BCD /set "{default}" nointegritychecks on
