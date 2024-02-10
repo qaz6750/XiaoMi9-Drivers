@@ -5,7 +5,6 @@
 > - Ensure the use of UEFI corresponding to the driver program.
 
 > [!NOTE]
-> - Here is the complete [installation tutorial](https://github.com/qaz6750/Port-Windows-11-XiaoMi-9).
 > - There may be errors, please point them out
 > - For some users, we recommend using MindowsV8 to complete the installation, although there are still issues, please feel free to raise them.
 

@@ -7,12 +7,15 @@
 
 > [!NOTE]
 > - **[Current status](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Status.md)**
-> - **[How to install](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Install.md)**
 > - Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers) 
 > - **This repository contains driver binary files for Xiaomi 9**
 > - There are still shortcomings in the Drivers, please feel free to raise them in the issues section
 > - These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
+
+### Install
+  * **The main guide for installing Windows: [Port-Windows-11-Xiaomi-Mi-9](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9)**
+  * Install drivers only: [Install drivers](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Install.md)
 
 ### Links
   * Xiaomi 9 Telegram group: [XiaoMi 9 (Cepheus)-WOA](https://t.me/WinOnMi9/)

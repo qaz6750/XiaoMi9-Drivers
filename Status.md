@@ -11,18 +11,20 @@
 | 🎆 GPU                 |                                                                                         | ✅            |
 | 🔋 Battery             |                                                                                         | ✅            |
 | ⌨️ Buttons             |                                                                                         | ✅            |
-| 📌 GPS                 |                                                                                         | ✅            |
-| 🪵 USB                 |                                                                                         | ✅            |
+| 📌 Location            |                                                                                         | ✅            |
+| 🪵 USB                  |                                                                                         | ✅            |
 | 🔊 Audio               |                                                                                         | ✅            |
-| 🧭 Sensor              | Manual copying of Calibration is required.                                              | ✅            |
+| 🧭 Sensor               | Manual copying of Calibration is required.                                              | ✅            |
 | ⚙️ FTPM 2.0            | Only under Secure boot and does not support Windows 10 18362/18363.                     | ✅            |
 | 👆 Touch               | The touch driver still has issues with multi finger touch.                              | ✅            |
-| 🔌 Charge              | slow charging only.                                                                     | ⚠️            |
+| 🔌 Charge              | slow charging only.                                                                     | ✅            |
 | ♋ Cellular Data       |                                                                                         | ⚠️            |
-| 📳 Vibration motor     | Requires PMIC Driver for Haptics.                                                       | ❌            |
-| 🏷️ NFC                 | The corresponding I2C channel needs to be repaired.                                     | ❌            |
-| 🧬 Fingerprint         | Need touch driver to add support.                                                       | ❌            |
-| 📸 Camera              |                                                                                         | ❌            |
+| 📳 Vibration motor     | Testing required.                                                                      | ⚠️            |
+| LED                   | Testing required.                                                                      | ⚠️            |
+| 📸 Camera Flash        | Drivers needs to be tested and repaired.                                                 | ⚠️            |
+| 🏷️ NFC                 | The corresponding I2C channel needs to be repaired.                                     | ⚠️            |
+| 📸 Camera              | Need to fix bin configuration file and driver.                                          | ⚠️            |
+| 🧬 Fingerprint         |                                                                                         | ❌            |
 
 # Detailed status
 
@@ -68,6 +70,7 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 📲 Brightness control  |                                                                                         | ✅            |
+|    X64 simulation      |                                                                                         | ✅            |
 
 ### GPU-Panel Status
 * Generally, it should be ea8076-f1mp, but it can still be other panels. This problem is usually caused by changing the screen
