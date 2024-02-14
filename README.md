@@ -18,7 +18,6 @@
   * Install drivers only: [Install drivers](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Install.md)
 
 ### Links
-  * Xiaomi 9 Telegram group: [XiaoMi 9 (Cepheus)-WOA](https://t.me/WinOnMi9/)
   * Official Website: [woa-msmnile home](https://woa-msmnile.github.io/)
   * Telegram group: [woa-msmnile issues & advice](https://t.me/woa_msmnile_issues)
   * Tencent QQ group: [woa-msmnile 问题与建议](https://qm.qq.com/cgi-bin/qm/qr?k=r2Gb_eHElZq0T7Rczf4rnEMsMdX6gbvF&jump_from=webapi&authKey=L4/pvGXcxQQddJpzUoa3qEh6P4n/fbF88oPKuPh4L0EFIEj5cY1k06i2w78gA5m5)
