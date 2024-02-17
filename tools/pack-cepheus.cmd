@@ -25,6 +25,7 @@ echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE >> filelist_cepheus.txt
 echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL >> filelist_cepheus.txt
 echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BATTERY >> filelist_cepheus.txt
 echo definitions\Desktop\ARM64\Internal\cepheus.txt >> filelist_cepheus.txt
+echo definitions\Desktop\ARM64\Internal\cepheus.xml >> filelist_cepheus.txt
 echo DriverUpdater.ARM64.exe >> filelist_cepheus.txt
 echo DriverUpdater.AMD64.exe >> filelist_cepheus.txt
 echo DriverUpdater.X86.exe >> filelist_cepheus.txt
