@@ -14,7 +14,6 @@
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
 ### Install
-  * **The main guide for installing Windows: [Port-Windows-11-Xiaomi-Mi-9](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9)**
   * Install drivers only: [Install drivers](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Install.md)
 
 ### Links
