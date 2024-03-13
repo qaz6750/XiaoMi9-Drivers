@@ -12,16 +12,16 @@
 | 🔋 Battery             |                                                                                         | ✅            |
 | ⌨️ Buttons             |                                                                                         | ✅            |
 | 📌 Location            |                                                                                         | ✅            |
-| 🪵 USB                  |                                                                                         | ✅            |
+| 🪵 USB                 |                                                                                         | ✅            |
 | 🔊 Audio               |                                                                                         | ✅            |
-| 🧭 Sensor               | Manual copying of Calibration is required.                                              | ✅            |
-| ⚙️ FTPM 2.0            | Only under Secure boot and does not support Windows 10 18362/18363.                     | ✅            |
+| 🧭 Sensor              | Manual copying of Calibration is required.                                              | ✅            |
+| 🛡️ TPM                 | Not support Windows 10 18362/18363.                                                     | ✅            |
 | 👆 Touch               | The touch driver still has issues with multi finger touch.                              | ✅            |
-| 🔌 Charge              | slow charging only.                                                                     | ✅            |
+| 🔌 Charge              | Slow charging only.                                                                     | ✅            |
 | ♋ Cellular Data       |                                                                                         | ⚠️            |
-| 📳 Vibration motor     | Testing required.                                                                      | ⚠️            |
-| LED                   | Testing required.                                                                      | ⚠️            |
-| 📸 Camera Flash        | Drivers needs to be tested and repaired.                                                 | ⚠️            |
+| 📳 Vibration motor     | Testing required.                                                                       | ⚠️            |
+| 🔦 LED                 | Testing required.                                                                       | ⚠️            |
+| 📸 Camera Flash        | Drivers needs to be tested and repaired.                                                | ⚠️            |
 | 🏷️ NFC                 | The corresponding I2C channel needs to be repaired.                                     | ⚠️            |
 | 📸 Camera              | Need to fix bin configuration file and driver.                                          | ⚠️            |
 | 🧬 Fingerprint         |                                                                                         | ❌            |
@@ -48,7 +48,10 @@
 | 🧭 Proximity           | Testing required.                                                                       | ⚠️            |
 
 ## 🪵 USB
-*  USB Host is not forced anymore, this means OTG dongles requiring external power from the device will once again be misdetected. The reasoning behind this is the "fix" for this particular issue broke more than it helped with. The user can however get such functionality back and out with the help of a simple reg commands:
+> [!NOTE]
+> - Currently using USB Host mode by default. The user can however get such functionality back and out with the help of a simple reg commands:
+> - RoleSwitchMode 1 -> USB Host
+> - RoleSwitchMode 3 -> USB Fn
 ```batch
 REM Force USB Host mode (identical to the older driver release of this month):
 REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 1
@@ -59,10 +62,10 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /
 ```
 
 ### Various functions of USB
-| Feature                | Notes                                                                                   | Status         |
-|------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🪵 USB-FN   (Default)  | This is used to detect whether it is charging and MTP	                               | ✅            |
-| 🪵 USB-HOST (USB C )   | Some of the features are work in progress (USB Powerless Dongles)                       | ⚠️            |
+| Feature                         | Notes                                                                                   | Status         |
+|---------------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🪵 USB-Fn   (Charging & MTP)   |                                                         	                                | ✅            |
+| 🪵 USB-Host (OTG)              | **[Default]** Some of the features are work in progress (USB Powerless Dongles)          | ⚠️            |
 
 
 ## 🎆 GPU 
@@ -70,10 +73,11 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 📲 Brightness control  |                                                                                         | ✅            |
-|    X64 simulation      |                                                                                         | ✅            |
+| 🎆 X64 simulation      |                                                                                         | ✅            |
 
 ### GPU-Panel Status
-* Generally, it should be ea8076-f1mp, but it can still be other panels. This problem is usually caused by changing the screen
+> [!NOTE]
+> - Generally, it should be ea8076-f1mp, but it can still be other panels. This problem is usually caused by changing the screen
 
 | Panel                          | Notes                                                                                   | Status         |
 |---------------------------------|----------------------------------------------------------------------------------------|----------------|
