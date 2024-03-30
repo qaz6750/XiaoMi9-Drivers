@@ -1,12 +1,14 @@
-Copyright (c) 2017-2023 The DuoWoA authors
+Copyright (c) 2017-2024 The DuoWoA authors
 
-Copyright (c) 2011-2023 Qualcomm Incorporated
+Copyright (c) 2011-2024 Qualcomm Incorporated
 
-Copyright (c) 2019-2023 Microsoft Corporation
+Copyright (c) 2019-2024 Microsoft Corporation
 
 
 This repository contains binary files sourced from Qualcomm Snapdragon 8cx laptops/tablets as well as the Surface Duo 1 and Xiaomi Mi9 original android firmware.
 
+Use of XiaoMi 9 firmware files is governed by the terms
+of the Xiaomi Operating System User Agreement.
 
 Use of Surface Duo 1 and Surface Duo 2 firmware files is governed by the terms
 of the Surface Duo E-OS License, in which is specified the use of firmware files
