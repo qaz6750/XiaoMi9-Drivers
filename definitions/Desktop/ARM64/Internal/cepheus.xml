@@ -33,7 +33,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Camera" Name="XiaoMi9_camrearsensor.inf" ID="XiaoMi9_camrearsensor"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Cellular\IPA" Name="XiaoMi9_ipa.inf" ID="XiaoMi9_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Graphics" Name="GenericDcsBacklight.inf" ID="GenericDcsBacklight"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\SecurityProcessor" Name="XiaoMi9_sp.inf" ID="XiaoMi9_sp"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Sensors\SSC" Name="XiaoMi9_sensors.inf" ID="XiaoMi9_sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
