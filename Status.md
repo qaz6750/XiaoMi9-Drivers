@@ -33,7 +33,7 @@
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 🔉 Audio Speaker       |                                                                                         | ✅            |
-| 🔉 Handset  Speaker    |                                                                                         | ✅            |
+| 🔉 Handset Speaker     |                                                                                         | ✅            |
 | 🎙️ Internal Top Mic    |                                                                                         | ✅            |
 | 🎙️ Internal Bottom Mic |                                                                                         | ✅            |
 
@@ -57,7 +57,7 @@ REM Force USB Host mode (identical to the older driver release of this month):
 REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 1
 ```
 ```batch
-REM Restore default auto detection functionality (default behavior):
+REM Restore default auto detection functionality:
 REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3
 ```
 
