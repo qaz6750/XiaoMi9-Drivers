@@ -8,7 +8,12 @@ echo pushd "%%~dp0" ^&^& cd %%~dp0 >> ..\OnlineUpdater.cmd
 echo .\tools\DriverUpdater\%%PROCESSOR_ARCHITECTURE%%\DriverUpdater.exe -r . -d .\definitions\Desktop\ARM64\Internal\cepheus.xml >> ..\OnlineUpdater.cmd
 echo pause >> ..\OnlineUpdater.cmd
 
-copy OfflineUpdater.cmd ..\
+echo @echo off > ..\OfflineUpdater.cmd
+echo ^(NET FILE^|^|^(powershell -command Start-Process '%%0' -Verb runAs -ArgumentList '%%* '^&EXIT /B^)^)^>NUL 2^>^&1 >> ..\OfflineUpdater.cmd
+echo pushd "%%~dp0" ^&^& cd %%~dp0 >> ..\OfflineUpdater.cmd
+echo set /P DrivePath=Enter Drive letter ^^^(with the colon!^^^) of the connected device in mass storage mode ^^^(e.g. D:^^^): >> ..\OfflineUpdater.cmd
+echo .\tools\DriverUpdater\%%PROCESSOR_ARCHITECTURE%%\DriverUpdater.exe -r . -d .\definitions\Desktop\ARM64\Internal\cepheus.xml -p %%DrivePath%% >> ..\OfflineUpdater.cmd
+echo pause >> ..\OfflineUpdater.cmd
 
 echo apps\IPA >> filelist_cepheus.txt
 echo CODE_OF_CONDUCT.md >> filelist_cepheus.txt
