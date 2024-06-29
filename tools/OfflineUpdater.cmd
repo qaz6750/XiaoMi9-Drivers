@@ -5,7 +5,7 @@ set /P DrivePath=Enter the Drive letter of WINCEPHEUS ^(it should be X:^):
 if [%DrivePath%]==[] exit
 if not "%DrivePath:~1,1%"==":" set DrivePath=%DrivePath%:
 
-%~dp0DriverUpdater.%PROCESSOR_ARCHITECTURE%.exe -r %~sdp0 -d %~sdp0definitions\Desktop\ARM64\Internal\cepheus.xml -p %DrivePath%
+%~dp0.\tools\DriverUpdater\%%PROCESSOR_ARCHITECTURE%%\DriverUpdater.exe -r %~sdp0 -d %~sdp0definitions\Desktop\ARM64\Internal\cepheus.xml -p %DrivePath%
 
 pause
 exit

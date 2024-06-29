@@ -3,13 +3,12 @@ REM rmdir /Q /S ..\..\XiaoMi9-Drivers-Release
 mkdir ..\..\XiaoMi9-Drivers-Release
 
 echo @echo off > ..\OnlineUpdater.cmd
-echo DriverUpdater.%%PROCESSOR_ARCHITECTURE%%.exe -r . -d .\definitions\Desktop\ARM64\Internal\cepheus.txt >> ..\OnlineUpdater.cmd
+echo ^(NET FILE^|^|^(powershell -command Start-Process '%%0' -Verb runAs -ArgumentList '%%* '^&EXIT /B^)^)^>NUL 2^>^&1 >> ..\OnlineUpdater.cmd
+echo pushd "%%~dp0" ^&^& cd %%~dp0 >> ..\OnlineUpdater.cmd
+echo .\tools\DriverUpdater\%%PROCESSOR_ARCHITECTURE%%\DriverUpdater.exe -r . -d .\definitions\Desktop\ARM64\Internal\cepheus.xml >> ..\OnlineUpdater.cmd
+echo pause >> ..\OnlineUpdater.cmd
 
 copy OfflineUpdater.cmd ..\
-
-copy DriverUpdater.ARM64.exe ..\
-copy DriverUpdater.AMD64.exe ..\
-copy DriverUpdater.X86.exe ..\
 
 echo apps\IPA >> filelist_cepheus.txt
 echo CODE_OF_CONDUCT.md >> filelist_cepheus.txt
@@ -23,12 +22,9 @@ echo components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS_MINIMAL >> filelist_ceph
 echo components\QC8150\Graphics\GRAPHICS.SOC_QC8150.CEPHEUS_DESKTOP_WDDM26 >> filelist_cepheus.txt
 echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE >> filelist_cepheus.txt
 echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL >> filelist_cepheus.txt
-echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BATTERY >> filelist_cepheus.txt
 echo definitions\Desktop\ARM64\Internal\cepheus.txt >> filelist_cepheus.txt
 echo definitions\Desktop\ARM64\Internal\cepheus.xml >> filelist_cepheus.txt
-echo DriverUpdater.ARM64.exe >> filelist_cepheus.txt
-echo DriverUpdater.AMD64.exe >> filelist_cepheus.txt
-echo DriverUpdater.X86.exe >> filelist_cepheus.txt
+echo tools\DriverUpdater >> filelist_cepheus.txt
 echo LICENSE.md >> filelist_cepheus.txt
 echo OfflineUpdater.cmd >> filelist_cepheus.txt
 echo OnlineUpdater.cmd >> filelist_cepheus.txt
@@ -41,7 +37,4 @@ cd tools
 
 del ..\OfflineUpdater.cmd
 del ..\OnlineUpdater.cmd
-del ..\DriverUpdater.ARM64.exe
-del ..\DriverUpdater.AMD64.exe 
-del ..\DriverUpdater.X86.exe
 del filelist_cepheus.txt
