@@ -7,7 +7,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SYSTEM
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %IHV%
-DriverVer   = 06/30/2024, 1.04.01.0
+DriverVer   = 07/06/2024, 1.04.02.0
 CatalogFile = phonereleaseversion.cat
 PnpLockdown = 1
 
@@ -19,7 +19,7 @@ PnpLockdown = 1
 Addreg = phonereleaseversionReg
 
 [phonereleaseversionReg]
-HKLM, "SYSTEM\Platform\DeviceTargetingInfo", "PhoneReleaseVersion", 0x0, "1.4.1"
+HKLM, "SYSTEM\Platform\DeviceTargetingInfo", "PhoneReleaseVersion", 0x0, "1.4.2"
 
 [Strings]
 IHV = "DuoWoA authors"
