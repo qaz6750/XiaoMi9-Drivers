@@ -22,12 +22,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS_MINIMAL\Drivers\SOC\TrEE" Name="XiaoMi9_tree.inf" ID="XiaoMi9_tree"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS_MINIMAL\Drivers\SOC\UART" Name="XiaoMi9_uart.inf" ID="XiaoMi9_uart"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Audio\AudMiniport" Name="XiaoMi9_audmini.inf" ID="XiaoMi9_audmini"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Audio\CS35L41" Name="cs35l41.inf" ID="cs35l41"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" ID="dax3_swc_aposvc_arm64"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Battery\Charger" Name="IDTP9220.inf" ID="IDTP9220"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Biometric" Name="FingerTipS521-FodReport.inf" ID="FingerTipS521-FodReport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Bluetooth" Name="XiaoMi9_btfmuart.inf" ID="XiaoMi9_btfmuart"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Camera" Name="XiaoMi9_camavs.inf" ID="XiaoMi9_camavs"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Camera" Name="XiaoMi9_camflash.inf" ID="XiaoMi9_camflash"/>
@@ -38,13 +33,10 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\SecurityProcessor" Name="XiaoMi9_sp.inf" ID="XiaoMi9_sp"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Sensors\SSC" Name="XiaoMi9_Sensors.inf" ID="XiaoMi9_Sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Touch" Name="FingerTipS521-Touch.inf" ID="FingerTipS521-Touch"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\WLAN" Name="XiaoMi9_wlan.inf" ID="XiaoMi9_wlan"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\ACDB" Name="XiaoMi9_acsp.inf" ID="XiaoMi9_acsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\AudMiniport" Name="XiaoMi9_audminiext.inf" ID="XiaoMi9_audminiext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\Device" Name="XiaoMi9_auddevext.inf" ID="XiaoMi9_auddevext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\Dolby" Name="dax3_ext_qc_dolbyatmos_dolbyaccessoem.inf" ID="dax3_ext_qc_dolbyatmos_dolbyaccessoem"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\Dolby" Name="dax3_qc_ext_bt.inf" ID="dax3_qc_ext_bt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\BatteryCurrentLimiter" Name="XiaoMi9_fgbclext.inf" ID="XiaoMi9_fgbclext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Bluetooth" Name="XiaoMi9_btext.inf" ID="XiaoMi9_btext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Camera" Name="XiaoMi9_camfrontext.inf" ID="XiaoMi9_camfrontext"/>
@@ -52,21 +44,29 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Cellular" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\HexagonLoader" Name="XiaoMi9_pilext.inf" ID="XiaoMi9_pilext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Sensors" Name="XiaoMi9_sensorsconfig.inf" ID="XiaoMi9_sensorsconfig"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Storage" Name="XiaoMiSfuH28S8Q302CMRA103ExtnPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103ExtnPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextadsp.inf" ID="XiaoMi9_subextadsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextcdsp.inf" ID="XiaoMi9_subextcdsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextmpss.inf" ID="XiaoMi9_subextmpss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextscss.inf" ID="XiaoMi9_subextscss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\WLAN\China" Name="XiaoMi9_wpextwapi8150.inf" ID="XiaoMi9_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\WLAN\Settings" Name="XiaoMi9_WlanMisc.inf" ID="XiaoMi9_WlanMisc"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Firmware\Storage" Name="XiaoMiSfuH28S8Q302CMRA103FwPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103FwPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Libraries\Cellular" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Libraries\Cellular" Name="qcimssrc_mbb_ext8150.inf" ID="qcimssrc_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Services\Cellular" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Services\Cellular" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Settings" Name="XiaoMi9_DeviceInfo.inf" ID="XiaoMi9_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Graphics\GRAPHICS.SOC_QC8150.CEPHEUS_DESKTOP_WDDM26" Name="XiaoMi9_dx.inf" ID="XiaoMi9_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Drivers\Audio\CS35L41" Name="cs35l41.inf" ID="cs35l41"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" ID="dax3_swc_aposvc_arm64"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Drivers\Battery\Charger" Name="IDTP9220.inf" ID="IDTP9220"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Drivers\Biometric" Name="FingerTipS521-FodReport.inf" ID="FingerTipS521-FodReport"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Drivers\Touch" Name="FingerTipS521-Touch.inf" ID="FingerTipS521-Touch"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Extensions\Audio\Dolby" Name="dax3_ext_qc_dolbyatmos_dolbyaccessoem.inf" ID="dax3_ext_qc_dolbyatmos_dolbyaccessoem"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Extensions\Audio\Dolby" Name="dax3_qc_ext_bt.inf" ID="dax3_qc_ext_bt"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Extensions\Storage" Name="XiaoMiSfuH28S8Q302CMRA103ExtnPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Firmware\Storage" Name="XiaoMiSfuH28S8Q302CMRA103FwPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\OEM\OEM.SOC_QC8150.CEPHEUS\Settings" Name="XiaoMi9_DeviceInfo.inf" ID="XiaoMi9_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCTimer8150.inf" ID="HalExtQCTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCWdogTimer8150.inf" ID="HalExtQCWdogTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
