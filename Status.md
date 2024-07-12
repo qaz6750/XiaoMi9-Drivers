@@ -5,7 +5,9 @@
 
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| ♋ Wifi                |                                                                                         | ✅            |
+| 🔊 Audio               |                                                                                         | ✅            |
+| ♋ Cellular Data       |                                                                                         | ✅            |
+| ♋ WiFi                |                                                                                         | ✅            |
 | 📦 UFS                 |                                                                                         | ✅            |
 | 🔵 Bluetooth           |                                                                                         | ✅            |
 | 🎆 GPU                 |                                                                                         | ✅            |
@@ -13,16 +15,14 @@
 | ⌨️ Buttons             |                                                                                         | ✅            |
 | 📌 Location            |                                                                                         | ✅            |
 | 🪵 USB                 |                                                                                         | ✅            |
-| 🔊 Audio               |                                                                                         | ✅            |
-| 🧭 Sensor              | Manual copying of Calibration is required.                                              | ✅            |
+| 🧭 Sensor              |                                                                                         | ✅            |
 | 🛡️ TPM                 | Not support Windows 10 18362/18363.                                                     | ✅            |
 | 👆 Touch               | The touch driver still has issues with multi finger touch.                              | ✅            |
 | 🔌 Charge              | Slow charging only.                                                                     | ✅            |
-| ♋ Cellular Data       |                                                                                         | ⚠️            |
 | 📳 Vibration motor     | Testing required.                                                                       | ⚠️            |
 | 🔦 LED                 | Testing required.                                                                       | ⚠️            |
 | 📸 Camera Flash        | Drivers needs to be tested and repaired.                                                | ⚠️            |
-| 🏷️ NFC                 | The corresponding I2C channel needs to be repaired.                                     | ⚠️            |
+| 🏷️ NFC                 |                                                                                         | ❌            |
 | 📸 Camera              | Need to fix bin configuration file and driver.                                          | ⚠️            |
 | 🧬 Fingerprint         |                                                                                         | ❌            |
 
@@ -39,13 +39,17 @@
 
 ## 🧭 Sensors
 ### Various functions of Sensors
-| Feature                | Notes                                                                                   | Status         |
-|------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🧭 Accelerometer       |                                                                                         | ✅            |
-| 🧭 Gyroscope           | Testing required.                                                                       | ⚠️            |
-| 🧭 Light sensor        |                                                                                         | ✅            |
-| 🧭 Magnetometer        | Testing required.                                                                       | ⚠️            |
-| 🧭 Proximity           | Testing required.                                                                       | ⚠️            |
+| Feature                            | Notes                                                                                   | Status         |
+|------------------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🧭 Accelerometer Sensor            |                                                                                         | ✅            |
+| 🧭 Compass Sensor                  |                                                                                         | ✅            |
+| 🧭 Gyroscope Sensor                |                                                                                         | ✅            |
+| 🧭 Inclinometer Sensor             |                                                                                         | ✅            |
+| 🧭 Light Sensor                    | The sensor driver does not support this sensor.                                         | ❌            |
+| 🧭 Magnetometer Sensor             |                                                                                         | ✅            |
+| 🧭 (Device)   Orientation Sensor   |                                                                                         | ✅            |
+| 🧭 (Absolute) Orientation Sensor   |                                                                                         | ✅            |
+| 🧭 (Relative) Orientation Sensor   |                                                                                         | ✅            |
 
 ## 🪵 USB
 > [!NOTE]
