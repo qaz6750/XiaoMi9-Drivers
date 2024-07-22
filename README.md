@@ -13,8 +13,8 @@
 > - These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
-### Install
-  * Install drivers only: [Install drivers](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Install.md)
+### Install & Update
+  * Install & Update drivers and UEFI : [Update Drivers And UEFI drivers](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/UpdateDriversAndUEFI.md)
 
 ### Links
   * Official Website: [woa-msmnile home](https://woa-msmnile.github.io/)
