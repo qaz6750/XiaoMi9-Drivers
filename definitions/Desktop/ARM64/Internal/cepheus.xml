@@ -33,6 +33,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\SecurityProcessor" Name="XiaoMi9_sp.inf" ID="XiaoMi9_sp"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Sensors\SSC" Name="XiaoMi9_Sensors.inf" ID="XiaoMi9_Sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\USB" Name="qcadb.inf" ID="qcadb"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Drivers\WLAN" Name="XiaoMi9_wlan.inf" ID="XiaoMi9_wlan"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\ACDB" Name="XiaoMi9_acsp.inf" ID="XiaoMi9_acsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Audio\AudMiniport" Name="XiaoMi9_audminiext.inf" ID="XiaoMi9_audminiext"/>
