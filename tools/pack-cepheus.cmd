@@ -36,8 +36,7 @@ echo OnlineUpdater.cmd >> filelist_cepheus.txt
 echo README.md >> filelist_cepheus.txt
 
 cd ..
-"%ProgramFiles%\7-zip\7z.exe" a -tzip ..\XiaoMi9-Drivers-Release\XiaoMi9-Drivers-Desktop.zip @tools\filelist_cepheus.txt -scsWIN
-"%ProgramFiles%\7-zip\7z.exe" a -t7z ..\XiaoMi9-Drivers-Release\XiaoMi9-Drivers-Desktop.7z @tools\filelist_cepheus.txt -scsWIN
+"tools\7z.exe" a -t7z ..\XiaoMi9-Drivers-Release\XiaoMi9-Drivers-Desktop.7z @tools\filelist_cepheus.txt -scsWIN
 cd tools
 
 del ..\OfflineUpdater.cmd
