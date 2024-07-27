@@ -44,6 +44,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Camera" Name="XiaoMi9_camrearext.inf" ID="XiaoMi9_camrearext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Cellular" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\HexagonLoader" Name="XiaoMi9_pilext.inf" ID="XiaoMi9_pilext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\PowerManagement" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Sensors" Name="XiaoMi9_sensorsconfig.inf" ID="XiaoMi9_sensorsconfig"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextadsp.inf" ID="XiaoMi9_subextadsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS\Extensions\Subsystems" Name="XiaoMi9_subextcdsp.inf" ID="XiaoMi9_subextcdsp"/>
