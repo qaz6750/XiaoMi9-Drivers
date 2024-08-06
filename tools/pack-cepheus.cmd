@@ -22,11 +22,8 @@ echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE >> filelist
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> filelist_cepheus.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL >> filelist_cepheus.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS >> filelist_cepheus.txt
-echo components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS >> filelist_cepheus.txt
-echo components\QC8150\Device\DEVICE.SOC_QC8150.CEPHEUS_MINIMAL >> filelist_cepheus.txt
-echo components\QC8150\Graphics\GRAPHICS.SOC_QC8150.CEPHEUS_DESKTOP_WDDM26 >> filelist_cepheus.txt
-echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE >> filelist_cepheus.txt
-echo components\QC8150\Platform\PLATFORM.SOC_QC8150.BASE_MINIMAL >> filelist_cepheus.txt
+echo components\Devices\Cepheus >> filelist_cepheus.txt
+echo components\QC8150 >> filelist_cepheus.txt
 echo definitions\Desktop\ARM64\Internal\cepheus.txt >> filelist_cepheus.txt
 echo definitions\Desktop\ARM64\Internal\cepheus.xml >> filelist_cepheus.txt
 echo tools\DriverUpdater >> filelist_cepheus.txt
