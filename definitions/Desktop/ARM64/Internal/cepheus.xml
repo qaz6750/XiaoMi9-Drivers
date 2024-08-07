@@ -59,6 +59,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Audio" Name="XiaoMi9_subextadsp.inf" ID="XiaoMi9_subextadsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Compute" Name="XiaoMi9_subextcdsp.inf" ID="XiaoMi9_subextcdsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Modem" Name="XiaoMi9_subextmpss.inf" ID="XiaoMi9_subextmpss"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\ModemConfig" Name="XiaoMi9_mcfg.inf" ID="XiaoMi9_mcfg"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Sensors" Name="XiaoMi9_subextscss.inf" ID="XiaoMi9_subextscss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\China" Name="XiaoMi9_wpextwapi8150.inf" ID="XiaoMi9_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\Settings" Name="XiaoMi9_WlanMisc.inf" ID="XiaoMi9_WlanMisc"/>
