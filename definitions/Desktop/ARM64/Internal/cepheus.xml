@@ -28,7 +28,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Extensions\Storage" Name="XiaoMiSfuH28S8Q302CMRA103ExtnPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103ExtnPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Firmware\Storage" Name="XiaoMiSfuH28S8Q302CMRA103FwPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103FwPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Audio\AudMiniport" Name="XiaoMi9_audmini.inf" ID="XiaoMi9_audmini"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Bluetooth\BTFMUART" Name="XiaoMi9_btfmuart.inf" ID="XiaoMi9_btfmuart"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Camera" Name="XiaoMi9_camavs.inf" ID="XiaoMi9_camavs"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Camera" Name="XiaoMi9_camflash.inf" ID="XiaoMi9_camflash"/>
@@ -42,7 +41,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\SOC\SPI" Name="XiaoMi9_spi.inf" ID="XiaoMi9_spi"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\SOC\TrEE" Name="XiaoMi9_tree.inf" ID="XiaoMi9_tree"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\SOC\UART" Name="XiaoMi9_uart.inf" ID="XiaoMi9_uart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\USB" Name="qcadb.inf" ID="qcadb"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\WLAN" Name="XiaoMi9_wlan.inf" ID="XiaoMi9_wlan"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Audio\ACDB" Name="XiaoMi9_acsp.inf" ID="XiaoMi9_acsp"/>
@@ -71,6 +69,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Settings" Name="XiaoMi9_DeviceInfo.inf" ID="XiaoMi9_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ADCM" Name="qcadcm8150.inf" ID="qcadcm8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Orientation" Name="AudioService8150.inf" ID="AudioService8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
@@ -136,6 +135,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\System\SCM" Name="qcscm8150.inf" ID="qcscm8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8150.inf" ID="qcadc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8150.inf" ID="qcconnectionsecurity8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
