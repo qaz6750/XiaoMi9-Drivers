@@ -138,7 +138,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8150.inf" ID="qcconnectionsecurity8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\TypeCPortManager" Name="qcusbctcpm8150.inf" ID="qcusbctcpm8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\UCSI" Name="qcusbcucsi8150.inf" ID="qcusbcucsi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\USBAudio" Name="QcUSBAudio8150.inf" ID="QcUSBAudio8150"/>
@@ -152,6 +151,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8150.inf" ID="qcwmrilextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\FMRadio" Name="qcfmtransportextension8150.inf" ID="qcfmtransportextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PowerManagement" Name="qcpepextension8150.inf" ID="qcpepextension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>

@@ -8,9 +8,10 @@
 > [!NOTE]
 > - **[Current status](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Status.md)**
 > - Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers) 
-> - **This repository contains driver binary files for Xiaomi 9**
+> - Based on [windows_silicon_qcom_hana](https://github.com/WOA-Project/windows_silicon_qcom_hana/)
 > - There are still shortcomings in the Drivers, please feel free to raise them in the issues section
-> - These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000!
+> - These driver files are based on @gus33000 's drivers for Surface Duo and Hana. Huge thanks to @gus33000!
+> - **This repository contains driver binary files for XiaoMi 9**
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
 ### Install & Update
