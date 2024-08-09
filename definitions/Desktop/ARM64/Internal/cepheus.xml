@@ -63,9 +63,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\Settings" Name="XiaoMi9_WlanMisc.inf" ID="XiaoMi9_WlanMisc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext8150.inf" ID="qcimssrc_mbb_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Settings" Name="XiaoMi9_DeviceInfo.inf" ID="XiaoMi9_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ADCM" Name="qcadcm8150.inf" ID="qcadcm8150"/>
@@ -155,6 +152,9 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
