@@ -29,6 +29,9 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Firmware\Storage" Name="XiaoMiSfuH28S8Q302CMRA103FwPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103FwPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Audio\AudMiniport" Name="XiaoMi9_audmini.inf" ID="XiaoMi9_audmini"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Bluetooth\BTFMUART" Name="XiaoMi9_btfmuart.inf" ID="XiaoMi9_btfmuart"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Camera" Name="XiaoMi9_camavs.inf" ID="XiaoMi9_camavs"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Camera" Name="XiaoMi9_camflash.inf" ID="XiaoMi9_camflash"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Drivers\Camera" Name="XiaoMi9_camfrontsensor.inf" ID="XiaoMi9_camfrontsensor"/>
@@ -59,6 +62,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Modem" Name="XiaoMi9_subextmpss.inf" ID="XiaoMi9_subextmpss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\ModemConfig" Name="XiaoMi9_mcfg.inf" ID="XiaoMi9_mcfg"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Sensors" Name="XiaoMi9_subextscss.inf" ID="XiaoMi9_subextscss"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\China" Name="XiaoMi9_wpextwapi8150.inf" ID="XiaoMi9_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\Settings" Name="XiaoMi9_WlanMisc.inf" ID="XiaoMi9_WlanMisc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
@@ -75,9 +79,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\JPEGEncoder" Name="qccamjpege_ffu8150.inf" ID="qccamjpege_ffu8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\MIPICSI" Name="qccammipicsi8150.inf" ID="qccammipicsi8150"/>
@@ -151,7 +152,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8150.inf" ID="qcwmrilextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\FMRadio" Name="qcfmtransportextension8150.inf" ID="qcfmtransportextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PowerManagement" Name="qcpepextension8150.inf" ID="qcpepextension8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>
