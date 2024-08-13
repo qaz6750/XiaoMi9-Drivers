@@ -16,9 +16,9 @@
 | 📌 Location            |                                                                                         | ✅            |
 | 🪵 USB                 |                                                                                         | ✅            |
 | 🧭 Sensor              |                                                                                         | ✅            |
+| 👆 Touch               |                                                                                         | ✅            |
 | 🛡️ TPM                 | Not support versions below Windows 11 22H2.                                             | ✅            |
-| 👆 Touch               | The touch driver still has issues with multi finger touch.                              | ✅            |
-| 🔌 Charge              | Slow charging only.                                                                     | ✅            |
+| 🔌 Type-C Charge       | Slow charging only.                                                                     | ✅            |
 | 🔌 Wireless charge     | Although it does not have driver support, it can still be used.Slow charging only.      | ✅            |
 | 📳 Vibration motor     | Testing required.                                                                       | ⚠️            |
 | 🔦 LED                 | Testing required.                                                                       | ⚠️            |
