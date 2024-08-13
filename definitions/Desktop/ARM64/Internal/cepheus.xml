@@ -22,7 +22,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Drivers\Battery\Charger" Name="IDTP9220.inf" ID="IDTP9220"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Drivers\Biometric" Name="FingerTipS521-FodReport.inf" ID="FingerTipS521-FodReport"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Drivers\Touch" Name="FingerTipS521-Touch.inf" ID="FingerTipS521-Touch"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Drivers\Touch" Name="FingerTipS521.inf" ID="FingerTipS521"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Extensions\Audio\Dolby" Name="dax3_ext_qc_dolbyatmos_dolbyaccessoem.inf" ID="dax3_ext_qc_dolbyatmos_dolbyaccessoem"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Extensions\Audio\Dolby" Name="dax3_qc_ext_bt.inf" ID="dax3_qc_ext_bt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Extensions\Storage" Name="XiaoMiSfuH28S8Q302CMRA103ExtnPackage.inf" ID="XiaoMiSfuH28S8Q302CMRA103ExtnPackage"/>
