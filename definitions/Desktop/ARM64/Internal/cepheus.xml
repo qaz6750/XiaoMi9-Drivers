@@ -47,8 +47,8 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Audio\AudMiniport" Name="XiaoMi9_audminiext.inf" ID="XiaoMi9_audminiext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Audio\Device" Name="XiaoMi9_auddevext.inf" ID="XiaoMi9_auddevext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Bluetooth" Name="XiaoMi9_btext.inf" ID="XiaoMi9_btext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera" Name="XiaoMi9_camfrontext.inf" ID="XiaoMi9_camfrontext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera" Name="XiaoMi9_camrearext.inf" ID="XiaoMi9_camrearext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera\FrontSensor" Name="XiaoMi9_camfrontext.inf" ID="XiaoMi9_camfrontext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera\RearSensor" Name="XiaoMi9_camrearext.inf" ID="XiaoMi9_camrearext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Cellular" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\HexagonLoader" Name="XiaoMi9_pilext.inf" ID="XiaoMi9_pilext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
