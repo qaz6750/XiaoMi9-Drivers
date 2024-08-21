@@ -1,21 +1,20 @@
 
-# Windows Driver pack for Xiaomi 9 sm8150 devices
+# Windows Driver pack for XiaoMi 9 devices
 
 > [!WARNING]
 > - **Please note that this repository only provides support for Mi9. By installing this driver pack, you agree that any damage done to your phone or any loss of data is your entire responsibility and we cannot be taken responsible for data loss if it ever happens. We believe however this driver pack is safe to install. Try at your own risk!**
 > - **Commercial use is PROHIBITED**
 
 > [!NOTE]
-> - **[Current status](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/Status.md)**
-> - Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers) 
-> - Based on [windows_silicon_qcom_hana](https://github.com/WOA-Project/windows_silicon_qcom_hana/)
-> - There are still shortcomings in the Drivers, please feel free to raise them in the issues section
+> - **[Project Current status](Status.md)**
+> - Pirate Drivers of [SurfaceDuo-Drivers](https://github.com/WOA-Project/SurfaceDuo-Drivers)
+> - Based on [windows_silicon_qcom_hana](https://github.com/WOA-Project/windows_silicon_qcom_hana).
+> - There are still shortcomings in the Drivers, please feel free to raise them in the issues section.
 > - These driver files are based on @gus33000 's drivers for Surface Duo and Hana. Huge thanks to @gus33000!
-> - **This repository contains driver binary files for XiaoMi 9**
 > - All driver binary files form a board support package to be used on devices mentioned above to provide hardware support for the Windows operating system.
 
 ### Install & Update
-  * Install & Update drivers and UEFI : [Update Drivers And UEFI drivers](https://github.com/qaz6750/Xiaomi9-NT-Drivers/blob/main/UpdateDriversAndUEFI.md)
+  * Install & Update Drivers and UEFI : [Update Drivers And UEFI drivers](UpdateDriversAndUEFI.md)
 
 ### Links
   * Official Website: [woa-msmnile home](https://woa-msmnile.github.io/)
