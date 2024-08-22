@@ -49,7 +49,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Bluetooth" Name="XiaoMi9_btext.inf" ID="XiaoMi9_btext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera\FrontSensor" Name="XiaoMi9_camfrontext.inf" ID="XiaoMi9_camfrontext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera\RearSensor" Name="XiaoMi9_camrearext.inf" ID="XiaoMi9_camrearext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Cellular" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\HexagonLoader" Name="XiaoMi9_pilext.inf" ID="XiaoMi9_pilext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\PMIC\BatteryCurrentLimiter" Name="XiaoMi9_fgbclext.inf" ID="XiaoMi9_fgbclext"/>
@@ -146,10 +145,15 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel" Name="QCListenSM_swc_ext8150.inf" ID="QCListenSM_swc_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel" Name="QCListenSM8150.inf" ID="QCListenSM8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8150.inf" ID="qcwmrilextension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\RILComponentExtension" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\FMRadio" Name="qcfmtransportextension8150.inf" ID="qcfmtransportextension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PowerManagement" Name="qcpepextension8150.inf" ID="qcpepextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext8150.inf" ID="qcimssrc_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>

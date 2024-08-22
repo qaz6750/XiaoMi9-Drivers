@@ -84,5 +84,5 @@ Please see [LICENSE](LICENSE.md)
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/WOA-Project/windows-hana-platforms
+git clone -c core.autocrlf=false https://github.com/WOA-Project/windows_silicon_qcom_hana
 ```
