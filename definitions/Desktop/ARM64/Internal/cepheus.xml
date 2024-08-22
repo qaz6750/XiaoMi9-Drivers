@@ -50,8 +50,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera\FrontSensor" Name="XiaoMi9_camfrontext.inf" ID="XiaoMi9_camfrontext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Camera\RearSensor" Name="XiaoMi9_camrearext.inf" ID="XiaoMi9_camrearext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\HexagonLoader" Name="XiaoMi9_pilext.inf" ID="XiaoMi9_pilext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\PMIC\BatteryCurrentLimiter" Name="XiaoMi9_fgbclext.inf" ID="XiaoMi9_fgbclext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Sensors" Name="XiaoMi9_sensorsconfig.inf" ID="XiaoMi9_sensorsconfig"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Audio" Name="XiaoMi9_subextadsp.inf" ID="XiaoMi9_subextadsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Compute" Name="XiaoMi9_subextcdsp.inf" ID="XiaoMi9_subextcdsp"/>
@@ -60,8 +58,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\Subsystems\Sensors" Name="XiaoMi9_subextscss.inf" ID="XiaoMi9_subextscss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\China" Name="XiaoMi9_wpextwapi8150.inf" ID="XiaoMi9_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Extensions\WLAN\Settings" Name="XiaoMi9_WlanMisc.inf" ID="XiaoMi9_WlanMisc"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Platform\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext8150.inf" ID="qcimssrc_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Settings" Name="XiaoMi9_DeviceInfo.inf" ID="XiaoMi9_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Cepheus\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ADCM" Name="qcadcm8150.inf" ID="qcadcm8150"/>
