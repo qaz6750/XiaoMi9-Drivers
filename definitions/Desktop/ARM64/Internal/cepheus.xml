@@ -159,16 +159,21 @@
     </Drivers>
     <AppX>
         <AppXPackages>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.2.2.appx" ID="Microsoft.NET.Native.Framework.2.2"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.x64.1.3.Appx" ID="Microsoft.NET.Native.Framework.x64.1.3"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.2.2.appx" ID="Microsoft.NET.Native.Runtime.2.2"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.x64.1.4.Appx" ID="Microsoft.NET.Native.Runtime.x64.1.4"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.UI.Xaml.2.8.appx" ID="Microsoft.UI.Xaml.2.8"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM.140.00.appx" ID="Microsoft.VCLibs.ARM.140.00"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.appx" ID="Microsoft.VCLibs.ARM64.14.00"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.Desktop.appx" ID="Microsoft.VCLibs.ARM64.14.00.Desktop"/>
             <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.x64.14.00.appx" ID="Microsoft.VCLibs.x64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement_ARM.appxbundle" ID="Microsoft.BlockandFilterglobal_8wekyb3d8bbwe" LicenseFile="Comms.Apps.CommsEnhancement_License_arm.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement.CN_ARM.appxbundle" ID="Microsoft.BlockandFilter_8wekyb3d8bbwe"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Messaging" Name="Comms.Apps.Messaging_ARM64.AppxBundle" ID="Microsoft.Messaging_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Messaging_License.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Phone" Name="Comms.Apps.Calls_ARM.appxbundle" ID="Microsoft.CommsPhone_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Calls_License.xml"/>
         </AppXPackages>
     </AppX>
 </FeatureManifest>
