@@ -63,14 +63,14 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Orientation" Name="AudioService8150.inf" ID="AudioService8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\JPEGEncoder" Name="qccamjpege_ffu8150.inf" ID="qccamjpege_ffu8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\JPEGEncoder" Name="qccamjpege8150.inf" ID="qccamjpege8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\MIPICSI" Name="qccammipicsi8150.inf" ID="qccammipicsi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\Platform" Name="qccamplatform8150.inf" ID="qccamplatform8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\CCID" Name="qcccidbridge8150.inf" ID="qcccidbridge8150"/>
@@ -99,7 +99,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SAR" Name="qSarMgr8150.inf" ID="qSarMgr8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Buses\GPI" Name="qcglink8150.inf" ID="qcglink8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Buses\GLINK" Name="qcglink8150.inf" ID="qcglink8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Buses\GPI" Name="qcgpi8150.inf" ID="qcgpi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Diagnostic\QDSS" Name="qcqdss8150.inf" ID="qcqdss8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Diagnostic\QWPP" Name="qwpp8150.inf" ID="qwpp8150"/>
@@ -137,8 +137,8 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter8150.inf" ID="QcUsbFnSsFilter8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USBHost" Name="QcXhciFilter8150.inf" ID="QcXhciFilter8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\VibrationMotor" Name="qchwnhaptics8150.inf" ID="qchwnhaptics8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel" Name="QCListenSM_swc_ext8150.inf" ID="QCListenSM_swc_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel" Name="QCListenSM8150.inf" ID="QCListenSM8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8150.inf" ID="QCListenSM_swc_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="QCListenSM8150.inf" ID="QCListenSM8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Bluetooth" Name="qcbtfmuart_ext8150.inf" ID="qcbtfmuart_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8150.inf" ID="qcwmrilextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\RILComponentExtension" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
