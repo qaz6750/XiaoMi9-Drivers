@@ -15,9 +15,21 @@
 
 ## Get Driver and UEFI
 > [!NOTE]
-> - To ensure the matching between UEFI and drivers, we recommend that all users download drivers directly from Releases
+> - To ensure the compatibility between UEFI and the drivers, we recommend that all users download the drivers directly from the release version. However, you can choose to use the drivers from the main branch.
 
+### From Release
 * You can get the released version through [Releases](https://github.com/qaz6750/XiaoMi9-Drivers/releases) 
+
+### From Main Branch
+> [!IMPORTANT]
+> - The driver improvements on the main branch usually include some of the latest functional fixes and bug fixes. These improvements have not been released. Therefore, you can choose to obtain the driver from the main branch to experience the latest fixes. Please note that there usually exist some unknown issues or known issues that are still being fixed.
+
+> [!NOTE]
+> - If you use the driver from the main branch, then for UEFI, you should select the latest version in the Release (or use the UEFI from the main branch of Project-Aloha).
+
+* First of all, you should clone this repository.
+* Secondly, use the "pack-cepheus.cmd" script in the "tools" directory to package the driver.
+* Finally, you can find the packaged driver in the parent directory, and then you can proceed to the next step.
 
 ## Installing Or Updating the drivers
 * Going to Mass Storage

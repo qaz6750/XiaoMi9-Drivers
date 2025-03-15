@@ -18,8 +18,8 @@
   * Install & Update Drivers and UEFI : [Update Drivers And UEFI drivers](UpdateDriversAndUEFI.md)
 
 ## Links
-  * Official Website: [woa-msmnile home](https://woa-msmnile.github.io/)
-  * Telegram group: [woa-msmnile issues & advice](https://t.me/woa_msmnile_issues)
+  * Official Website: [Project Aloha home](http://project-aloha.github.io)
+  * Telegram group: [Project Aloha issues & advice](https://t.me/project_aloha_issues)
   * Tencent QQ group: [woa-msmnile 问题与建议](https://qm.qq.com/cgi-bin/qm/qr?k=r2Gb_eHElZq0T7Rczf4rnEMsMdX6gbvF&jump_from=webapi&authKey=L4/pvGXcxQQddJpzUoa3qEh6P4n/fbF88oPKuPh4L0EFIEj5cY1k06i2w78gA5m5)
   * Mindows Flash Tool: *[Mindows Chinese Page](http://mindows.cn/)*
 
