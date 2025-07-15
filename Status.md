@@ -8,12 +8,12 @@
 | 🔊 Audio               |                                                                                         | ✅            |
 | ♋ Cellular Data       |                                                                                         | ✅            |
 | 🛜 WiFi                |                                                                                         | ✅            |
-| 📦 UFS                 |                                                                                         | ✅            |
 | 🔵 Bluetooth           |                                                                                         | ✅            |
+| 📦 UFS                 |                                                                                         | ✅            |
 | 🎆 GPU                 |                                                                                         | ✅            |
 | 🔋 Battery             |                                                                                         | ✅            |
 | ⌨️ Buttons             |                                                                                         | ✅            |
-| 📌 Location            |                                                                                         | ✅            |
+| 🌏 Location            |                                                                                         | ✅            |
 | 🪵 USB                 |                                                                                         | ✅            |
 | 🧭 Sensor              |                                                                                         | ✅            |
 | 👆 Touch               |                                                                                         | ✅            |
@@ -46,7 +46,7 @@
 | 🧭 Compass Sensor                  |                                                                                         | ✅            |
 | 🧭 Gyroscope Sensor                |                                                                                         | ✅            |
 | 🧭 Inclinometer Sensor             |                                                                                         | ✅            |
-| 🧭 Light Sensor                    | The sensor driver does not support this sensor.                                         | ❌            |
+| 🧭 Light Sensor                    |                                                                                         | ✅            |
 | 🧭 Magnetometer Sensor             |                                                                                         | ✅            |
 | 🧭 (Device)   Orientation Sensor   |                                                                                         | ✅            |
 | 🧭 (Absolute) Orientation Sensor   |                                                                                         | ✅            |
@@ -92,3 +92,12 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /
 | 🖥️ Samsung EA8076-F1p2_2-cmd| Not tested                                                                              | ❌            |
 | 🖥️ Samsung EA8076-F1-cmd    | Not tested                                                                              | ❌            |
 | 🖥️ Samsung EA8076-cmd       | Not tested                                                                              | ❌            |
+
+## 🌄 Future Development
+> [!NOTE]
+> - I plan or hope to make some improvements in the following areas, but due to some depressive feelings and sleep issues, this may be postponed indefinitely, and the completion time is to be determined.
+
+* Improve the multi-finger input experience of the touch driver.
+* Implement basic control over the wireless charging chip.
+* Optimize standby power consumption and enhance battery life.
+* etc.. 
